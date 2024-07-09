@@ -85,7 +85,7 @@ h2.title::after {
   z-index: 1;
   top: 0;
   left: 0;
-  background-image: url('/assets/image/download.jpg');
+  background-image: url('assets/image/download.jpg');
   clip-path: polygon(13% 21%, 15% 63%, 100% 59%, 100% 7%);
   background-position: center;
   background-size: cover;
