@@ -430,3 +430,39 @@ footer {
   background-color: #2c7a00;
   padding: 15px;
 }
+
+.register-form h2 {
+  color: #2c7a00;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-bottom: 30px !important;
+}
+
+.register-form button {
+  background-color: #2c7a00;
+  color: white;
+  font-weight: bolder;
+  transition: 0.3s;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid #2c7a00;
+}
+
+.register-form button:hover {
+  background-color: white;
+  color: #2c7a00;
+}
+
+.register-form .form-control:focus,.register-form .form-select:focus {
+  box-shadow: 0 0 0 .25rem rgba(44, 122, 0, 0.25);
+  border-color: #2c7a00;
+}
+
+.register-form .form-check-input:checked {
+  background-color: #2c7a00;
+  border-color: #2c7a00;
+}
+
+.register-form .form-check-input:focus {
+  box-shadow: 0 0 0 .25rem rgba(44, 122, 0, 0.25);
+}
