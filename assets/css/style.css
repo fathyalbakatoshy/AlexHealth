@@ -66,6 +66,12 @@ h2.title::after {
   color: #858585;
 }
 
+@media (max-width: 768px) {
+  .welcome p {
+    font-size: 18px;
+  }
+}
+
 .welcome ul {
   list-style: none;
   padding: 0;
