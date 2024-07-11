@@ -17,10 +17,10 @@ body {
 
 h2.title::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 150px;
   height: 3px;
-  background-color: #2C7A00;
+  background-color: #2c7a00;
   bottom: -25px;
   left: 0;
 
@@ -30,7 +30,6 @@ h2.title::after {
 .welcome {
   background-color: #f9f9f9;
   padding: 100px 0;
-  
 }
 
 .welcome h2 {
@@ -59,16 +58,15 @@ h2.title::after {
   color: #858585;
 }
 
-
 .welcome_img {
   position: relative;
-    background-color: #2C7A00;
-    clip-path: polygon(11% 20%, 14% 64%, 100% 60%, 100% 6%);
-    z-index: 10;
+  background-color: #2c7a00;
+  clip-path: polygon(11% 20%, 14% 64%, 100% 60%, 100% 6%);
+  z-index: 10;
 }
 
 @media screen and (max-width: 992px) {
-  .welcome_img  {
+  .welcome_img {
     display: none;
   }
 
@@ -78,14 +76,14 @@ h2.title::after {
 }
 
 .welcome_img .span {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: 1;
   top: 0;
   left: 0;
-  background-image: url(assets/image/download.jpg);
+  background-image: url("/assets/image/download.jpg");
   clip-path: polygon(13% 21%, 15% 63%, 100% 59%, 100% 7%);
   background-position: center;
   background-size: cover;
@@ -131,7 +129,6 @@ h2.title::after {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  
 }
 
 .board .board_item .info {
@@ -153,13 +150,12 @@ h2.title::after {
   position: relative;
   font-weight: 500 !important;
   color: #444 !important;
-
 }
 
 .board .board_item .info p:last-of-type {
   margin: 10px 0 0 0;
-    font-size: 14px;
-    padding: 0;
+  font-size: 14px;
+  padding: 0;
 }
 
 .board .board_item .info p:first-of-type::after {
@@ -173,7 +169,84 @@ h2.title::after {
 }
 
 .board .board_item:hover {
-  transform: translateY(-10px) ;
+  transform: translateY(-10px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.price h2 {
+  position: relative;
+  margin-bottom: 50px;
+  font-size: 60px;
+  color: #041a56;
+}
+
+.pricing-table {
+  margin-top: 50px;
+}
+.pricing-table .card {
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.pricing-table .card-header {
+  background-color: #fff;
+  color: #555555;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+  border: none;
+}
+.pricing-table .card-title {
+  padding: 15px 0 ;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  background-color: #2c7a00;
+}
+.pricing-table .card-body {
+  text-align: center;
+  padding: 0;
+}
+.pricing-table .categories {
+  text-align: left;
+}
+.pricing-table .categories ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 218px
+}
+.pricing-table .categories li {
+  padding: 20px;
+  font-size: 16px;
+}
+.pricing-table .categories li:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+
+}
+.pricing-table .highlight {
+  background-color: #fff;
+}
+.pricing-table .highlight p {
+  color: white;
+}
+.pricing-table ul.list-unstyled li {
+  padding: 10px 0;
+}
+.pricing-table .pricing-header h6 {
+  margin: 0;
+}
+.pricing-table .pricing-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+.pricing-table .price-item ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pricing-table .price-item:not(:last-child) {
+  border-bottom: 1px solid #ddd;
 }
