@@ -216,6 +216,12 @@ h2.title::after {
 .pricing-table .categories {
   text-align: left;
 }
+
+@media (max-width: 768px) {
+  .pricing-table .categories {
+    display: none;
+  }
+}
 .pricing-table .categories ul {
   list-style-type: none;
   padding-left: 0;
@@ -255,3 +261,5 @@ h2.title::after {
 .pricing-table .price-item:not(:last-child) {
   border-bottom: 1px solid #ddd;
 }
+
+
