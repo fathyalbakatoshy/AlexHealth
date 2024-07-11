@@ -432,10 +432,9 @@ footer {
 }
 
 .register-form h2 {
-  color: #2c7a00;
+  color: #000;
   font-weight: bolder;
   font-size: 35px;
-  margin-bottom: 30px !important;
 }
 
 .register-form button {
