@@ -188,6 +188,11 @@ h2.title::after {
   border: none;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.pricing-table .card:hover {
+  transform: scale(1.05) translateY(-10px);
 }
 .pricing-table .card-header {
   background-color: #fff;
