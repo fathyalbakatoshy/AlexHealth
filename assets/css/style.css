@@ -553,3 +553,13 @@ footer {
   color: #2c7a00 !important;
   font-weight: bolder;
 }
+
+@media (max-width: 768px) {
+  .table-head-fs {
+    font-size: 18px !important;
+  }
+
+  .table-body-fs {
+    font-size: 16px !important;
+  }
+}
