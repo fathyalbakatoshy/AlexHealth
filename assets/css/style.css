@@ -511,9 +511,6 @@ footer {
   flex-direction: column;
   text-align: center;
 }
-.timeline-content {
-
-}
 .countdown {
   display: flex;
   justify-content: center;
