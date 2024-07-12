@@ -321,7 +321,16 @@ h2.title::after {
   color: #2c7a00;
 }
 
-/* Hide the icon for the first child */
+@media (max-width: 768px) {
+  .pricing-table .price-item::before {
+    display: none;
+  }
+
+  .pricing-table .price-item {
+    font-size: 14px;
+  }
+}
+
 .pricing-table .price-item:first-child::before {
   content: "";
 }
@@ -336,7 +345,6 @@ h2.title::after {
   display: block;
   width: fit-content;
   padding: 10px 20px;
-  /* text-align: center; */
   background-color: #fff;
   color: #2c7a00;
   text-decoration: none;
@@ -481,4 +489,8 @@ footer {
   .abstract-form {
     width: 100%;
   }
+}
+
+.deadline .date {
+  color: #2c7a00;
 }
